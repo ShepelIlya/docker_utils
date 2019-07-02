@@ -27,7 +27,7 @@ $me -i=sdbcs/ros1:melodic-dev --name=melodic --catkin_ws=/home/user/volumes/catk
 
 }
 
-IMAGE="ros_intro:latest"
+IMAGE="chepsi/mipt_ros_example:latest"
 NAME="mfti"
 NETWORK=""
 
@@ -40,7 +40,7 @@ function local_volumes() {
 						-v /home/$USER/.Xauthority:/home/user/.Xauthority \
 						-v /dev:/dev \
 						-v /etc/localtime:/etc/localtime:ro \
-						-v /home/ilya/temp:/home/user/temp"
+						-v /home/$USER/temp:/home/user/temp"
 	echo "${volumes}"
 }
 
