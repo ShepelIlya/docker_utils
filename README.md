@@ -14,7 +14,11 @@ Please ask all questions about setup at the issues section with 'question' or 'h
 [Manage Docker as a non-root user](https://docs.docker.com/install/linux/linux-postinstall/)
 
 ### Special docker image for workshop
-Docker Hub:   [link](Check it later)
+Docker Hub:   [link](https://hub.docker.com/r/chepsi/mipt_ros_example)
+For pulling image from docker hub:
+```bash
+docker pull chepsi/mipt_ros_example
+```
 
 Google Drive: [link](Check it later)
 
