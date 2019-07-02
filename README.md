@@ -15,6 +15,7 @@ Please ask all questions about setup at the issues section with 'question' or 'h
 
 ### Special docker image for workshop
 Docker Hub:   [link](https://hub.docker.com/r/chepsi/mipt_ros_example)
+
 For pulling image from docker hub:
 ```bash
 docker pull chepsi/mipt_ros_example
