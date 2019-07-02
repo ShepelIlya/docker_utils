@@ -33,7 +33,7 @@ Google Drive: [link](https://drive.google.com/open?id=1gUgCpGeNuDRZrkZyER7ZpE-dg
 Install additional libs:
 
 ```bash
-
+sudo apt install git cmake python-tempita python-catkin-tools python-lxml default-jre xsltproc libbullet-dev
 ```
 
 ### Useful links
