@@ -32,8 +32,8 @@ NAME="mfti"
 NETWORK=""
 
 function local_volumes() {
-	if [ ! -d "/home/user/temp" ]; then
-		mkdir -p /home/user/temp
+	if [ ! -d "/home/${USER}/temp" ]; then
+		mkdir -p /home/${USER}/temp
 	fi
 
 	volumes="-v /tmp/.X11-unix:/tmp/.X11-unix:rw \
